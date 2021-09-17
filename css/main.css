@@ -7,18 +7,40 @@
 
 /* Commons */
 
+.pd10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
 
 .container{
     width: 80%;
     margin: 10px auto;
 }
 
-main{
-    margin: 10px 0;
-
+section,
+footer{
+    margin-top: 10px;
 }
+
 .space{
     height: 50px;
     width: 100%;
-    background: yellow;
+    background: blue;
+    border:1px;
+    border-style: solid;
+}
+
+aside {
+    float: left;
+    width: 15%;
+}
+
+.content {
+    float: left;
+    width: 70%;
 }
