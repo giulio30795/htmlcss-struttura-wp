@@ -7,11 +7,16 @@
 
 /* Commons */
 
+
 .container{
     width: 80%;
     margin: 10px auto;
 }
 
+main{
+    margin: 10px 0;
+
+}
 .space{
     height: 50px;
     width: 100%;
